@@ -16,7 +16,6 @@ export function validationNameEmailPassword(req, res, next) {
     next()
 }
 
-
 export function validationEmailPassword(req, res, next) {
     const {email, password} = req.body;
 
